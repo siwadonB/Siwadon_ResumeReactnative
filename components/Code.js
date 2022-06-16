@@ -14,6 +14,7 @@ import { NavigationContainer } from "@react-navigation/native";
 
 const ionic = "https://github.com/siwadonB/Siwadon_SeniorIonic.git";
 const angular = "https://github.com/siwadonB/Siwadon_SeniorAngular.git";
+const reactnative = "https://github.com/siwadonB/Siwadon_ResumeReactnative.git";
 
 const OpenURLButton = ({ url, children }) => {
   const handlePress = useCallback(async () => {
@@ -96,7 +97,7 @@ const Code = (props) => {
       </View>
       <View style={styles.lastcode}>
         <Text>React Native</Text>
-        <OpenURLButton url={ionic}>React Native GitHub</OpenURLButton>
+        <OpenURLButton url={reactnative}>React Native GitHub</OpenURLButton>
       </View>
       </View>
     </ImageBackground>
